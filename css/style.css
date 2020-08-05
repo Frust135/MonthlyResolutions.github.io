@@ -27,9 +27,7 @@ Author: Martín S.S.
 body{
 	
 	background: url('../images/notebook.png');
-	font-family: 'Lato';
-	font-style: normal;
-	font-weight: 400;
+	font-family: 'Lato', sans-serif;
 }
 #container{
 	margin: auto;
@@ -48,9 +46,7 @@ a{
 	color: #e9c46a;
 	text-decoration: none;
 }
-h1{
-	font-family: 'Lato', sans-serif;
-}
+
 /*----------------------------------------------------------------------------- 
 03=HEADER  
 -----------------------------------------------------------------------------*/

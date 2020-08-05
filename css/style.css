@@ -1,0 +1,99 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Martín S.S.
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+body{
+	
+	background: url('../images/notebook.png');
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+}
+#container{
+	margin: auto;
+	width: 1000px;
+}
+.lowText{
+	color: gray;
+}
+.sideBarText{
+	font-size: 500;
+}
+hr{
+	color: gray;
+}
+a{
+	color: #e9c46a;
+	text-decoration: none;
+}
+h1{
+	font-family: 'Lato', sans-serif;
+}
+/*----------------------------------------------------------------------------- 
+03=HEADER  
+-----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------- 
+04=MAIN  
+-----------------------------------------------------------------------------*/
+#main{
+	background: #264653;
+	padding: 30px;
+	width: 630px;
+	float: left;
+	border-radius: 5px;
+	color: #e9c46a;
+}
+
+/*----------------------------------------------------------------------------- 
+05=SIDEBAR  
+-----------------------------------------------------------------------------*/
+#sidebar{
+	box-shadow: 0px 4px 6px 0px gray;
+	background: #2a9d8f;
+	width: 300px;
+	float:left;
+	padding: 30px;
+	margin-left: 3%;
+	border-radius: 5px;
+	color: #264653;
+}
+#avatar{
+	width: 150px;
+	border-radius: 100px;
+}
+#quote{
+   	border-left: 3px solid;
+
+}
+.quoteText{
+	padding-left: 10px;
+}
+/*----------------------------------------------------------------------------- 
+06=FOOTER  
+-----------------------------------------------------------------------------*/
+#footerLink{
+	color: #264653; 
+}
